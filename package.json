@@ -4,7 +4,7 @@
   "description": "backend code of the DocMe Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/chandreshraj/DocMeBack/issues"
   },
-  "homepage": "https://github.com/chandreshraj/DocMeBack#readme"
+  "homepage": "https://github.com/chandreshraj/DocMeBack#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3",
+    "nodemon": "^1.19.3"
+  }
 }
